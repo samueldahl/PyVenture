@@ -1,0 +1,1 @@
+This is a text adventure game, inspired by the text games of old.
