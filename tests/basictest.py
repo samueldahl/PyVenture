@@ -22,6 +22,7 @@ def print_exits():
 
 
 while finished == False:
+    print(location)
     print(print_location() + '\n')
     print(print_exits() + '\n')
     rawtext = input('What do ye doeth? ')
@@ -30,6 +31,4 @@ while finished == False:
     elif rawtext == "q":
         finished = True
     else:
-        if rawtext == "dank memes":
-            print("dank dreams")
-            finished = True
+        location = rawtext
