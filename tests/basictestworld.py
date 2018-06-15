@@ -1,8 +1,8 @@
 world = {
     'start_room':{
-        'text':'You were walking in the mountians with your friend\nwhen you fell down a mineshaft. You \nplummeted for a munite untill you splashed down in\nan underwater pond. You swam to shore,\n and you find yourself in a large cavern.',
+        'text':'You were walking in the mountians with your friend\nwhen you fell down a mineshaft. You \nplummeted for a munite untill you splashed down in\nan underwater pond. You swam to shore,\nand you find yourself in a large cavern.',
         'exits':{
-            'rickety_ladder':'surface',
+            'rickety ladder':'surface',
             'mineshaft':'mineshaft',
             'door':'room'
         }
@@ -25,5 +25,4 @@ world = {
             'back':'start_room'
         }
     }
-
 }
